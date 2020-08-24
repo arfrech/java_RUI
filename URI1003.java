@@ -1,0 +1,19 @@
+// Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas 
+// e atribua à variável SOMA. A seguir escrever o valor desta variável.
+
+import java.util.Scanner;
+public class URI1003{
+    public static void main (String args[]){
+        Scanner teclado = new Scanner (System.in);
+
+        int A, B, SOMA;
+
+        A = teclado.nextInt();
+        B = teclado.nextInt();
+
+        SOMA = A + B;
+
+        System.out.println("SOMA = " + SOMA);
+            
+    }
+}
